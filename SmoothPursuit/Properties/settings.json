@@ -1,0 +1,43 @@
+﻿{
+    "settings": {
+        "mode": "build",
+        "direction": "horizontal", // left/right/down/up/horizontal/vertical/caxis/daxis/axis/hboth/vboth/caxisboth/daxisboth/axisboth
+        "language": "en_EN",       // None to deactivate prediction
+        "speeds": [ 1.5, 5 ],
+        "singleSpeed": 2.5,
+        "nLines": 12,
+        "nColumns": 1,
+        "targetHeight": 19,
+        "lineHeight": 1,
+        "charHeight": 30,
+        "textBoxHeight": 40,
+        "textBoxWidth": 550,
+        "textBoxMargin": 15,
+        "verticalBackDeleteSize": 150,
+        "horizontalBackDeleteSize": 200,
+        "lineMargin": 15
+    },
+    "theme": "dark",
+    "themesColors": [
+        {
+            "theme": "dark",
+            "windowBG": "#000",
+            "windowFG": "#fff",
+            "circle": "#fff",
+            "circleBothDirections": [ "#ff0", "#f0f" ],
+            "line": "#fff",
+            "textBlockBG": "#222",
+            "textBlockFG": "#eee"
+        },
+        {
+            "theme": "light",
+            "windowBG": "#fff",
+            "windowFG": "#000",
+            "circle": "#000",
+            "circleBothDirections": [ "#000", "#f0f" ],
+            "line": "#000",
+            "textBlockBG": "#222",
+            "textBlockFG": "#eee"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+﻿<Window Name="myWindow" x:Class="SmoothPursuit.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SmoothPursuit"
+        mc:Ignorable="d"
+        Title="Smooth Pursuit" Background="Black" Width="100" Height="100" WindowState="Maximized" WindowStartupLocation="CenterScreen" SizeChanged="MainWindow_SizeChanged" KeyDown="OnKeyDownHandler">
+    <Grid Name="myGrid" VerticalAlignment="Top" HorizontalAlignment="Center">
+        <Grid.ColumnDefinitions>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+        </Grid.RowDefinitions>
+        <TextBlock Name="myText" HorizontalAlignment="Stretch" VerticalAlignment="Top" TextAlignment="Center" FontSize="30" TextWrapping="Wrap" Text="_" FontStretch="UltraExpanded" />
+        <Canvas Name="fpogs">
+            <Ellipse Name="fpog" Height="19" Width="19" Canvas.Left="0" Canvas.Top="0"/>
+        </Canvas>
+    </Grid>
+</Window>
